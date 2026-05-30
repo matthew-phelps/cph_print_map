@@ -1,0 +1,16 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Data — keep folders, ignore contents
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# QGIS cruft
+*.qgs~
+*.qgz~
+*.gpkg-shm
+*.gpkg-wal
